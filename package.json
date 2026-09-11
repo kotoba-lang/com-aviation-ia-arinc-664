@@ -3,6 +3,6 @@
   "private": true,
   "description": "ARINC 664 Part 7 / AFDX frame codec (VL-in-MAC, Ethernet/IPv4/UDP, sequence number, BAG, redundancy) in portable .cljc",
   "scripts": {
-    "test:cljs": "nbb --classpath \"$(clojure -A:cljs -Spath)\" scripts/verify-cljs.cljk"
+    "test:cljs": "kbb --backend sci --classpath \"$(kbb -A:cljs -Spath)\" scripts/verify-cljs.cljk"
   }
 }
