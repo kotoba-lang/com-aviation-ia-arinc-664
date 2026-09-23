@@ -4,7 +4,7 @@
   library's README — see the individual namespace docstrings for exactly
   what public-source provenance each claim rests on, and which is least
   confident (the destination-MAC VL convention in `afdx.vl`)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [afdx.bytes :as b]
             [afdx.ethernet :as eth]
             [afdx.vl :as vl]
